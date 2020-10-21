@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  console.log(process.env)
   return (
     <div className={styles.container}>
       <Head>
@@ -9,8 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+
       <main className={styles.main}>
-        this is develop branch, and some more changes, and this environment variable FOO: {process.env.FOO} 
+        this is develop branch, and some more changes, and this environment variable FOO: {process.env.FOO}
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
