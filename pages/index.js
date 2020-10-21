@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        this is develop branch
+        this is develop branch, and some more changes
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
