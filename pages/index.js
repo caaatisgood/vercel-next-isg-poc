@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const FOO = process.env.FOO
+const FOO = process.env.NEXT_PUBLIC_FOO
 
 export default function Home() {
   console.log(process.env)
