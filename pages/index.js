@@ -1,10 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-const FOO = process.env.NEXT_PUBLIC_FOO
-
 export default function Home() {
-  console.log(process.env)
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +11,6 @@ export default function Home() {
 
 
       <main className={styles.main}>
-        this is develop branch, and some more changes, and this environment variable FOO: {FOO}
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>

@@ -9,5 +9,5 @@ export default function apiPoc () {
     return 'is loading'
   }
   console.log('> data', data)
-  return 'data is loaded, please check our console to see the data'
+  return 'data is loaded, please check your console to see the data'
 }
